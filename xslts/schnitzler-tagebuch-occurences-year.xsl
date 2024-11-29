@@ -12,10 +12,10 @@
     <xsl:param name="index-person-day"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-data/master/indices/index_person_day.xml')"
         as="node()"/>
-    <xsl:key name="tagebuch-treffer" match="*:list/*:item" use="*:ref/text()"/>
     <xsl:param name="listperson"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-data/master/indices/listperson.xml')/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:listPerson[1]"
         as="node()"/>
+    <xsl:key name="tagebuch-treffer" match="*:list/*:item" use="*:ref/text()"/>
     <xsl:template match="/">
         <xsl:variable name="startYear" select="1879"/>
         <xsl:variable name="endYear" select="1931"/>
@@ -27,10 +27,10 @@
                 <xsl:for-each select="($startYear to $endYear)">
                     <xsl:variable name="currentYear" select="."/>
                     <xsl:value-of select="$currentYear"/>
-                    <!-- Zählen der tei:date[@when] für das aktuelle Jahr -->
                     <xsl:text>,</xsl:text>
+                    <!-- Zählen der tei:date[@when] für das aktuelle Jahr -->
                     <xsl:value-of
-                        select="count(key('tagebuch-treffer', $personennummer, $index-person-day)[fn:year-from-date(@target) = $currentYear])"/>
+                        select="count(key('tagebuch-treffer', $personennummer, $index-person-day)/@target[year-from-date(.)=$currentYear])"/>
                     <xsl:text>&#10;</xsl:text>
                 </xsl:for-each>
             </xsl:result-document>
