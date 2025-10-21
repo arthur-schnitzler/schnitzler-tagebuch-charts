@@ -35,8 +35,8 @@
                                     <xsl:attribute name="level">
                                         <xsl:text>a</xsl:text>
                                     </xsl:attribute>
-                                    <xsl:text>Erwähnungen in Schniztlers Tagebuch von </xsl:text>
-                                    <xsl:value-of select="$korrespondenz"/>
+                                    <xsl:text>Erwähnungen in Schnitzlers Tagebuch von </xsl:text>
+                                    <xsl:value-of select="$korrespondenz//tei:persName[1]"/>
                                 </xsl:element>
                                 <respStmt>
                                     <resp>providing the content</resp>
