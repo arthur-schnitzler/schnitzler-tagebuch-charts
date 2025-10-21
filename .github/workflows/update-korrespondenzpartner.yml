@@ -1,0 +1,45 @@
+name: Update Korrespondenzpartner Data
+
+on:
+  repository_dispatch:
+    types: [update-korrespondenzpartner]
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Download Saxon-HE
+        run: |
+          wget https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-4/SaxonHE12-4J.zip
+          unzip SaxonHE12-4J.zip -d saxon
+
+      - name: Run XSLT transformation
+        run: |
+          java -cp saxon/saxon-he-12.4.jar net.sf.saxon.Transform \
+            -xsl:xslts/schnitzler-diary_extract-correspondene-partners.xsl \
+            -it \
+            -o:/dev/null
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add tagebuch-vorkommen-korrespondenzpartner/*.xml
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Korrespondenzpartner data from schnitzler-briefe-data"
+            git push
+          fi
