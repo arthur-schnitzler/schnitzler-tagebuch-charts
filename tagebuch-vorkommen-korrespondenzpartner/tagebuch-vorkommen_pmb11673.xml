@@ -10,7 +10,7 @@
          <titleStmt>
             <title level="s">Arthur Schnitzler: Briefwechsel mit Autorinnen und
                                     Autoren</title>
-            <title level="a">Erwähnungen in Schniztlers Tagebuch von pmb10955</title>
+            <title level="a">Erwähnungen in Schniztlers Tagebuch von pmb11673</title>
             <respStmt>
                <resp>providing the content</resp>
                <name>Martin Anton Müller</name>
@@ -37,7 +37,7 @@
       <body>
          <listEvent>
             <event when="1888">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1889">
                <desc>0</desc>
@@ -49,70 +49,70 @@
                <desc>0</desc>
             </event>
             <event when="1892">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1893">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1894">
-               <desc>0</desc>
+               <desc>5</desc>
             </event>
             <event when="1895">
-               <desc>0</desc>
+               <desc>11</desc>
             </event>
             <event when="1896">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1897">
-               <desc>0</desc>
+               <desc>2</desc>
             </event>
             <event when="1898">
-               <desc>0</desc>
+               <desc>4</desc>
             </event>
             <event when="1899">
-               <desc>0</desc>
+               <desc>2</desc>
             </event>
             <event when="1900">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1901">
                <desc>0</desc>
             </event>
             <event when="1902">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1903">
                <desc>1</desc>
             </event>
             <event when="1904">
-               <desc>0</desc>
+               <desc>6</desc>
             </event>
             <event when="1905">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1906">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1907">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1908">
-               <desc>0</desc>
+               <desc>2</desc>
             </event>
             <event when="1909">
-               <desc>0</desc>
+               <desc>6</desc>
             </event>
             <event when="1910">
                <desc>2</desc>
             </event>
             <event when="1911">
-               <desc>0</desc>
-            </event>
-            <event when="1912">
                <desc>3</desc>
             </event>
+            <event when="1912">
+               <desc>2</desc>
+            </event>
             <event when="1913">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1914">
                <desc>0</desc>
@@ -124,43 +124,43 @@
                <desc>1</desc>
             </event>
             <event when="1917">
-               <desc>1</desc>
+               <desc>3</desc>
             </event>
             <event when="1918">
-               <desc>1</desc>
+               <desc>2</desc>
             </event>
             <event when="1919">
-               <desc>8</desc>
+               <desc>2</desc>
             </event>
             <event when="1920">
-               <desc>0</desc>
+               <desc>5</desc>
             </event>
             <event when="1921">
-               <desc>0</desc>
-            </event>
-            <event when="1922">
                <desc>1</desc>
             </event>
+            <event when="1922">
+               <desc>3</desc>
+            </event>
             <event when="1923">
-               <desc>0</desc>
+               <desc>3</desc>
             </event>
             <event when="1924">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1925">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1926">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1927">
-               <desc>0</desc>
+               <desc>7</desc>
             </event>
             <event when="1928">
                <desc>0</desc>
             </event>
             <event when="1929">
-               <desc>0</desc>
+               <desc>2</desc>
             </event>
             <event when="1930">
                <desc>0</desc>
