@@ -19,8 +19,8 @@
     <xsl:template match="/">
         <xsl:variable name="startYear" select="1888"/>
         <xsl:variable name="endYear" select="1931"/>
-        <xsl:for-each select="$korrespondenzen/descendant::tei:persName[@role = 'main']/@ref">
-            <xsl:variable name="korrespondenz" select="replace(., '#', '')" as="xs:string"/>
+        <xsl:for-each select="$korrespondenzen/descendant::tei:persName[@role = 'main']">
+            <xsl:variable name="korrespondenz" select="replace(@ref, '#', '')" as="xs:string"/>
             <xsl:result-document indent="yes"
                 href="tagebuch-vorkommen_{$korrespondenz}.xml">
                 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -36,7 +36,7 @@
                                         <xsl:text>a</xsl:text>
                                     </xsl:attribute>
                                     <xsl:text>Erwähnungen in Schnitzlers Tagebuch von </xsl:text>
-                                    <xsl:value-of select="$korrespondenz//tei:persName[1]"/>
+                                    <xsl:value-of select="."/>
                                 </xsl:element>
                                 <respStmt>
                                     <resp>providing the content</resp>
