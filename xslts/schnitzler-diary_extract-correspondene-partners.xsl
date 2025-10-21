@@ -22,7 +22,7 @@
         <xsl:for-each select="$korrespondenzen/descendant::tei:persName[@role = 'main']/@ref">
             <xsl:variable name="korrespondenz" select="replace(., '#', '')" as="xs:string"/>
             <xsl:result-document indent="yes"
-                href="tagebuch-vorkommen-korrespondenzpartner/tagebuch-vorkommen_{$korrespondenz}.xml">
+                href="tagebuch-vorkommen_{$korrespondenz}.xml">
                 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     >
