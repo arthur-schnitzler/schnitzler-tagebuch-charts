@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-21Z</date>
+            <date>2026-08-29Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Erwähnungen im Tagebuch nach Jahren einzelner
@@ -100,43 +100,43 @@
                <desc>0</desc>
             </event>
             <event when="1909">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1910">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1911">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1912">
                <desc>0</desc>
             </event>
             <event when="1913">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1914">
                <desc>0</desc>
             </event>
             <event when="1915">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1916">
-               <desc>6</desc>
+               <desc>0</desc>
             </event>
             <event when="1917">
-               <desc>4</desc>
+               <desc>0</desc>
             </event>
             <event when="1918">
-               <desc>6</desc>
+               <desc>0</desc>
             </event>
             <event when="1919">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1920">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1921">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1922">
                <desc>0</desc>
@@ -157,7 +157,7 @@
                <desc>0</desc>
             </event>
             <event when="1928">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1929">
                <desc>0</desc>
@@ -166,7 +166,7 @@
                <desc>0</desc>
             </event>
             <event when="1931">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
          </listEvent>
       </body>

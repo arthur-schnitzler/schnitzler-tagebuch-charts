@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-21Z</date>
+            <date>2026-08-29Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Erwähnungen im Tagebuch nach Jahren einzelner
@@ -46,22 +46,22 @@
                <desc>0</desc>
             </event>
             <event when="1891">
-               <desc>10</desc>
+               <desc>0</desc>
             </event>
             <event when="1892">
-               <desc>12</desc>
+               <desc>0</desc>
             </event>
             <event when="1893">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1894">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1895">
-               <desc>3</desc>
+               <desc>0</desc>
             </event>
             <event when="1896">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1897">
                <desc>0</desc>
@@ -136,7 +136,7 @@
                <desc>0</desc>
             </event>
             <event when="1921">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1922">
                <desc>0</desc>

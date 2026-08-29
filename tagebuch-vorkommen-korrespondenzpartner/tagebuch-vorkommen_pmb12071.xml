@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2025-10-21Z</date>
+            <date>2026-08-29Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Erwähnungen im Tagebuch nach Jahren einzelner
@@ -61,7 +61,7 @@
                <desc>0</desc>
             </event>
             <event when="1896">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1897">
                <desc>0</desc>
@@ -85,28 +85,28 @@
                <desc>0</desc>
             </event>
             <event when="1904">
-               <desc>3</desc>
+               <desc>0</desc>
             </event>
             <event when="1905">
                <desc>0</desc>
             </event>
             <event when="1906">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1907">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1908">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1909">
                <desc>0</desc>
             </event>
             <event when="1910">
-               <desc>3</desc>
+               <desc>0</desc>
             </event>
             <event when="1911">
-               <desc>2</desc>
+               <desc>0</desc>
             </event>
             <event when="1912">
                <desc>0</desc>
@@ -118,7 +118,7 @@
                <desc>0</desc>
             </event>
             <event when="1915">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1916">
                <desc>0</desc>
@@ -145,7 +145,7 @@
                <desc>0</desc>
             </event>
             <event when="1924">
-               <desc>1</desc>
+               <desc>0</desc>
             </event>
             <event when="1925">
                <desc>0</desc>
