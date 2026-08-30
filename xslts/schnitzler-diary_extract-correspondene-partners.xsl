@@ -12,7 +12,7 @@
     <xsl:param name="index-person-day"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-tagebuch-data/master/indices/index_person_day.xml')"
         as="node()"/>
-    <xsl:key name="tagebuch-treffer" match="*:list/*:item" use="*:ref/@corresp"/>
+    <xsl:key name="tagebuch-treffer" match="*:list/*:item" use="*:ref/text()"/>
     <xsl:param name="korrespondenzen"
         select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-briefe-data/main/data/indices/listcorrespondence.xml')"
         as="node()"/>
