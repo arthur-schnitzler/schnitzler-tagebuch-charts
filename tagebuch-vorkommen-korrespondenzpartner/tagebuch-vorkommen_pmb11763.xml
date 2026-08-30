@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2026-08-29Z</date>
+            <date>2026-08-30Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Erwähnungen im Tagebuch nach Jahren einzelner
@@ -85,7 +85,7 @@
                <desc>0</desc>
             </event>
             <event when="1904">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1905">
                <desc>0</desc>
@@ -124,7 +124,7 @@
                <desc>0</desc>
             </event>
             <event when="1917">
-               <desc>0</desc>
+               <desc>1</desc>
             </event>
             <event when="1918">
                <desc>0</desc>
